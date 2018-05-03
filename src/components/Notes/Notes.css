@@ -1,0 +1,83 @@
+.participant-notes h2 {
+  line-height: 1.2;
+  margin: 0;
+}
+.participant-notes p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+.participant-note {
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  position: relative;
+}
+.participant-note > .note-editable,
+.participant-note > .btn-save-note,
+.participant-note > .btn-cancel-edit
+{
+  display: none;
+}
+.participant-note.editing > .note-editable,
+.participant-note.editing > .btn-save-note,
+.participant-note.editing > .btn-cancel-edit
+{
+  display: initial;
+}
+.participant-note.editing > .note-body,
+.participant-note.editing > .btn-edit-note
+{
+  display: none;
+}
+.note-editable {
+  margin-bottom: 10px;
+}
+.no-note {
+  padding: 30px 0;
+  font-size: 16px;
+}
+.all-notes-section {
+  height: 420px;
+  overflow-y: scroll;
+  margin-top: 10px;
+  border-top: 1px solid #aaa;
+}
+.add-notes-section {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 20px;
+  width: 860px;
+}
+
+#new-note {
+  width: 848px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.btn-edit-note {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 48px;
+  min-width: 30px;
+  padding: 12px;
+  font-size: 24px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 11px;
+}
+.btn-save-note {
+  min-width: 30px;
+  background-color: #00a87e;
+  margin-right: 20px;
+}
+.btn-cancel-edit {
+  min-width: 30px;
+  background-color: #eb670f;
+  margin-right: 20px;
+}

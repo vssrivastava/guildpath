@@ -1,0 +1,35 @@
+.modal.pn {
+  width: 520px;
+  height: 320px;
+}
+
+.participant-name {
+  text-align: center;
+}
+.participant-name p {
+  margin: 0;
+}
+
+.patient-name-head {
+  color: #a00;
+  font-size: 1em;
+}
+
+.patient-name {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin: 16px 0;
+}
+
+.verify-btn-wrapper {
+  margin-top: 24px;
+}
+.verify-btn-wrapper button{
+  margin: 0 24px;
+}
+#btn-go-back {
+  background-color: #eb670f;
+}
+#btn-verify {
+  background-color: #00a87e;
+}

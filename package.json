@@ -1,0 +1,24 @@
+{
+  "name": "AsthmaProgram",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "instascan": "^1.0.0",
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-modal": "^3.4.2",
+    "survey-react": "^1.0.18",
+    "surveyjs-widgets": "^1.0.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

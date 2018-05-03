@@ -1,0 +1,42 @@
+#participant-id-section h1 {
+  margin-bottom: 0;
+}
+#participant-id-section p {
+  margin-top: 0;
+}
+#participant-form {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+.btn-qrcode {
+  position: absolute;
+  right: 1px;
+  top: 3px;
+  width: 48px;
+  min-width: 30px;
+  padding: 5px 3px;
+  font-size: 24px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 11px;
+  opacity: 0.8;
+}
+.btn-qrcode:hover,
+.btn-qrcode:focus {
+  opacity: 1;
+  filter: brightness(100%) contrast(100%);
+}
+.btn-qrcode i {
+  font-size: 28px;
+}
+#participant-form label {
+  display: block;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+#btn-verify-participant {
+  margin-top: 20px;
+}

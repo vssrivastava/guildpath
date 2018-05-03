@@ -1,0 +1,27 @@
+button.survey-button {
+  min-width: 280px;
+  min-height: 60px;
+  -webkit-appearance: none;
+  font-family: inherit;
+  line-height: normal;
+  background-color: #fff;
+  padding: 12px;
+  margin: 16px;
+  color: #333;
+  border: 1px solid #014f5d;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button.survey-button > .name {
+  font-weight: 600;
+  color: #04879e;
+  font-size: 20px;
+}
+button.survey-button > .desc {
+  font-weight: 200;
+}
+
+button.survey-button:hover {
+  background-color: #effcff;
+  filter: none;
+}
